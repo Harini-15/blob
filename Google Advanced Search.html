@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="google_icon.png" id="google-icon"></a>
+        <a href="index.html" id="page">Main Page</a>
+        <a href="#"><img src="bars.png" id="bars"></a>
+        <button class="signin-btn">Sign in</button>
+    </header>
+
+    <main class="container">
+        <p class="title">Advanced Search
+        <p>
+            <br>
+
+        <form action="https://google.com/search" name="f">
+            <div class="form-section">
+                <p>Find pages with...</p>
+                <div class="input-group">
+                    <label for="field1">all these words:</label>
+                    <input type="text" class="textinput" id="field1" value="" name="as_q">
+                </div>
+                <div class="input-group">
+                    <label for="field2">this exact word or phrase:</label>
+                    <input type="text" class="textinput" id="field2" value="" name="as_epq">
+                </div>
+                <div class="input-group">
+                    <label for="field3">any of these words:</label>
+                    <input type="text" class="textinput" id="field3" value="" name="as_oq">
+                </div>
+                <div class="input-group">
+                    <label for="field4">none of these words:</label>
+                    <input type="text" class="textinput" id="field4" value="" name="as_eq">
+                </div>
+                <div class="input-group">
+                    <label for="field5">numbers ranging from:</label>
+                    <div class="range-inputs">
+                        <input type="text" class="textinput1" id="field5" value="" name="as_nlo">
+                        <span>to</span>
+                        <input type="text" class="textinput2" id="field5" value="" name="as_nhi">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="form-section">
+                <p>Then narrow your results by...
+                <p>
+                <div class="input-group">
+                    <label>language:</label>
+                    <select>
+                        <option>any language</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>region:</label>
+                    <select>
+                        <option>any region</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>last update:</label>
+                    <select>
+                        <option>anytime</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>site or domain:</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>terms appearing:</label>
+                    <select>
+                        <option>anywhere in the page</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>file type:</label>
+                    <select>
+                        <option>any format</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>usage rights:</label>
+                    <select>
+                        <option>not filtered by license</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="search-btn">Advanced Search</button>
+        </form>
+        <hr>
+        <p>You can also...</p>
+        <div class="links">
+            <a href="#">Find pages that are similar to a URL</a>
+            <a href="#">Search pages that you've visited</a>
+            <a href="#">Use operators in the search box</a>
+            <a href="#">Customize your search settings</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Singapore</p>
+        <br>
+        <div class="footer-links">
+            <a href="#" id="help">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </footer>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

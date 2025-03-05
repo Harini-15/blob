@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+#google-icon {
+    width: 70px;
+    height: 27px;
+}
+
+#page {
+    margin-left: 1200px;
+    padding: 5px;
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#bars {
+    width: 17px;
+    height: 17px;
+    padding: 10px;
+}
+
+.signin-btn {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 95px;
+    height: 35px;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.title {
+    color: #d93025;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    width: 200px;
+    font-size: 13px;
+    color: #202124;
+}
+
+.input-group input[type=text]:focus,
+input[type=number]:focus {
+    outline: 1px solid #4285f4;
+}
+
+
+.input-group input,
+.input-group select {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group select {
+    background-color: #E8E9EB;
+}
+
+select:focus {
+    outline: 1px solid #4285f4;
+
+}
+
+.range-inputs {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+}
+
+.range-inputs span {
+    font-size: 14px;
+    color: #202124;
+
+}
+
+.search-btn {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 20px 0;
+    margin-left: 450px;
+}
+
+hr {
+    border-top: 0.2px solid #C5C6C7;
+    width: 245%;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: block;
+    color: #2832C2;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: left;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 240px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links #help {
+    margin-left: 240px;
+}
